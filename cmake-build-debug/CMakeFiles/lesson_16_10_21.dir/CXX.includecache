@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/alexdenisovit/Documents/cpp_lessons/lesson_16_10_21/Circle.h
+stdio.h
+-
+Shape.h
+/Users/alexdenisovit/Documents/cpp_lessons/lesson_16_10_21/Shape.h
+math.h
+-
+
+/Users/alexdenisovit/Documents/cpp_lessons/lesson_16_10_21/Shape.h
+
+/Users/alexdenisovit/Documents/cpp_lessons/lesson_16_10_21/Square.h
+stdio.h
+-
+Shape.h
+/Users/alexdenisovit/Documents/cpp_lessons/lesson_16_10_21/Shape.h
+
+/Users/alexdenisovit/Documents/cpp_lessons/lesson_16_10_21/main.cpp
+iostream
+-
+Square.h
+/Users/alexdenisovit/Documents/cpp_lessons/lesson_16_10_21/Square.h
+Circle.h
+/Users/alexdenisovit/Documents/cpp_lessons/lesson_16_10_21/Circle.h
+
