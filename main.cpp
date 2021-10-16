@@ -57,7 +57,7 @@ int main() {
     int* b = ((int*) ptr_test) + 1;
     double* c =   (double*) (b + 1);
     bool* d = (bool*) (c + 1);
-    int* e = ((int*)d)+1;
+    int* e = ((int*)d)+1; // !!!
 
     cout << "d(1 - true, 0 - false) = " << *d << endl;
     cout << "e = " << *e << endl;
